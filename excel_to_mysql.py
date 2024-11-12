@@ -36,4 +36,4 @@ def excel_to_mysql(file_path, table_name):
             print("The database connection was closed.")
 
 
-excel_to_mysql('cleaned_CovidDeaths.xlsx', 'covid_deaths')
+excel_to_mysql('cleaned_CovidDeaths2.xlsx', 'covid_deaths')
