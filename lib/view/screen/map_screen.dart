@@ -46,8 +46,9 @@ class _MapScreenState extends State<MapScreen> {
             );
           } else if (snapshot.hasData) {
             var data = snapshot.data!.where((item) => item['location'] == country).toList();
+
             return AlertDialog(
-              title: Text('Data'),
+              title: Text('Data $country '),
               content: Container(
                 width: double.maxFinite,
                 child: ListView.builder(
